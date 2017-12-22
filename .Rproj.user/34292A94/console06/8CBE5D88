@@ -1,0 +1,44 @@
+]0;/home/peter/Blog/myblog]0;peter@ip-172-30-0-197: ~/Blog/myblog[01;32mpeter@ip-172-30-0-197[00m:[01;34m~/Blog/myblog[00m$ [K]0;peter@ip-172-30-0-197: ~/Blog/myblog[01;32mpeter@ip-172-30-0-197[00m:[01;34m~/Blog/myblog[00m$ sudosu
+No command 'sudosu' found, did you mean:
+ Command 'sudoku' from package 'sudoku' (universe)
+sudosu: command not found
+]0;/home/peter/Blog/myblog]0;peter@ip-172-30-0-197: ~/Blog/myblog[01;32mpeter@ip-172-30-0-197[00m:[01;34m~/Blog/myblog[00m$ sudo su
+[sudo] password for peter: 
+Sorry, try again.
+[sudo] password for peter: 
+Sorry, try again.
+[sudo] password for peter: 
+sudo: 3 incorrect password attempts
+]0;/home/peter/Blog/myblog]0;peter@ip-172-30-0-197: ~/Blog/myblog[01;32mpeter@ip-172-30-0-197[00m:[01;34m~/Blog/myblog[00m$ ls
+[0m[01;34marchetypes[0m  config.toml  [01;34mcontent[0m  [01;34mdata[0m  index.Rmd  [01;34mlayouts[0m  myblog.Rproj  [01;34mstatic[0m  [01;34mthemes[0m
+]0;/home/peter/Blog/myblog]0;peter@ip-172-30-0-197: ~/Blog/myblog[01;32mpeter@ip-172-30-0-197[00m:[01;34m~/Blog/myblog[00m$ git[K[K[Kgit [K init
+Initialized empty Git repository in /home/peter/Blog/myblog/.git/
+]0;/home/peter/Blog/myblog]0;peter@ip-172-30-0-197: ~/Blog/myblog[01;32mpeter@ip-172-30-0-197[00m:[01;34m~/Blog/myblog[00m$ sudo git remote add origin https://github.com/patrasche5138/patrasche5138.github.io.git
+[sudo] password for peter: 
+peter is not in the sudoers file.  This incident will be reported.
+]0;/home/peter/Blog/myblog]0;peter@ip-172-30-0-197: ~/Blog/myblog[01;32mpeter@ip-172-30-0-197[00m:[01;34m~/Blog/myblog[00m$ git remote add origin https://github.com/patrasche5138/patrasche5138.github.io.git
+]0;/home/peter/Blog/myblog]0;peter@ip-172-30-0-197: ~/Blog/myblog[01;32mpeter@ip-172-30-0-197[00m:[01;34m~/Blog/myblog[00m$ ls
+[0m[01;34marchetypes[0m  config.toml  [01;34mcontent[0m  [01;34mdata[0m  index.Rmd  [01;34mlayouts[0m  myblog.Rproj  [01;34mstatic[0m  [01;34mthemes[0m
+]0;/home/peter/Blog/myblog]0;peter@ip-172-30-0-197: ~/Blog/myblog[01;32mpeter@ip-172-30-0-197[00m:[01;34m~/Blog/myblog[00m$ git pull origin master
+\fatal: Couldn't find remote ref master
+]0;/home/peter/Blog/myblog]0;peter@ip-172-30-0-197: ~/Blog/myblog[01;32mpeter@ip-172-30-0-197[00m:[01;34m~/Blog/myblog[00m$ \[Kgit pull origin master[K
+]0;/home/peter/Blog/myblog]0;peter@ip-172-30-0-197: ~/Blog/myblog[01;32mpeter@ip-172-30-0-197[00m:[01;34m~/Blog/myblog[00m$ git pull origin master
+fatal: Couldn't find remote ref master
+]0;/home/peter/Blog/myblog]0;peter@ip-172-30-0-197: ~/Blog/myblog[01;32mpeter@ip-172-30-0-197[00m:[01;34m~/Blog/myblog[00m$ git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31m.Rproj.user/[m
+	[31mconfig.toml[m
+	[31mcontent/[m
+	[31mindex.Rmd[m
+	[31mmyblog.Rproj[m
+	[31mstatic/[m
+	[31mthemes/[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;/home/peter/Blog/myblog]0;peter@ip-172-30-0-197: ~/Blog/myblog[01;32mpeter@ip-172-30-0-197[00m:[01;34m~/Blog/myblog[00m$ git add .
